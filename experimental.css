@@ -1,0 +1,61 @@
+
+/* 
+blockquote {
+  background-color: #ddd;
+  padding: 1em;
+  border-left: solid #333 10px;
+  font-family: "Merriweather";
+  margin-left: 0px;
+}
+blockquote p {
+  margin: 0;
+  font-size: 16px;
+  line-height: normal;
+} */
+
+
+
+
+
+
+
+
+/* Headings and paragraph relative positioning */
+
+p:first-child {
+    margin-top: 0;
+  }
+  
+  h1 + p,
+  h2 + p,
+  h3 + p,
+  h4 + p,
+  h5 + p {
+    margin-top: 0;
+  
+    /* the space between the header and the 
+    first paragraph must be smaller than 1em. It is defined by the header.
+    The paragraph must not interfere so we set the top margin to 0.*/
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    /* headers are close to their content, 
+    far from unrelated previous content */
+    margin-bottom: 0.6rem;
+    margin-top: 2.2rem;
+  }
+  
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child {
+    margin-top: 1em;
+    /* le titre premier élément peut être située directement en haut */
+  }
+  
+  
