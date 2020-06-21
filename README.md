@@ -1,9 +1,4 @@
 # Mini-ui
 
-Tiny CSS library. Start your project faster with decent UI.
+Minimalist CSS Library. #WorkInProgress.
 
-# Installation
-- Download global.css
-- Add it to your css folder
-- link it with  `<link href="global.css" rel="stylesheet">`
-- it's done
