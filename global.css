@@ -103,6 +103,7 @@ button,
 button:hover,
 .buttonShape:hover {
   background: rgba(20, 20, 20, 0.1);
+  text-decoration:none;
 }
 button:active,
 .buttonShape:active {
