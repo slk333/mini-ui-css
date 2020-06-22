@@ -2,7 +2,7 @@
 :root {
   --dark: rgb(40, 42, 54);
   --text-color: var(--dark);
-  --link-color: #1b266b;
+  /* --link-color: #1b266b; */
   /* --link-color: #1a0dab;  GOOGLE color*/
   --link-color: #192886;
   /* --link-visited-color: #450963; */
