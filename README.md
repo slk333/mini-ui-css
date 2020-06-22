@@ -1,4 +1,4 @@
-# Mini-ui
+# Mini-UI
 
 Minimalist CSS Library. #WorkInProgress.
 
