@@ -131,6 +131,11 @@ input:-webkit-autofill::first-line {
   font-weight: 500;
 }
 
+input[type="file"]{
+  /* We don't override the default appareance, so we remove the border */
+  border:none;
+}
+
 textarea {
   display: block;
   font-family: system-ui;
