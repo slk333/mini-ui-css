@@ -83,7 +83,7 @@ code {
 /* Buttons and Inputs alike */
 button,
 .buttonShape {
-  font-family: system-ui;
+  font-family: inherit;
   font-size: 1em;
   font-weight: 500;
   background: transparent;
@@ -112,7 +112,7 @@ button:active,
 
 input {
   display: block;
-  font-family: system-ui;
+  font-family: inherit;
   font-size: 1em;
   font-weight: 500;
   background: transparent;
@@ -126,7 +126,7 @@ input {
 
 input:-webkit-autofill::first-line {
   /* empêcher autofill de modifier la typographie */
-  font-family: system-ui;
+  font-family: inherit;
   font-size: initial;
   font-weight: 500;
 }
@@ -138,7 +138,7 @@ input[type="file"]{
 
 textarea {
   display: block;
-  font-family: system-ui;
+  font-family: inherit;
   font-size: 1em;
   font-weight: 500;
   background: transparent;
@@ -171,7 +171,7 @@ textarea {
 }
 
 form {
-  font-family: system-ui;
+  font-family: inherit;
   font-size: initial;
   text-align: start;
 }
