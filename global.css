@@ -92,14 +92,19 @@ a.buttonShape {
   padding: 0.5em 1em;
   cursor: pointer;
   text-transform: uppercase;
-  margin-right: 0.5em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin:.5em;
+  margin-left:0;
+  /* safari */
+  color: initial; 
 }
 a.buttonShape {
- color: initial;
  display: inline-block;
 }
+
+button:focus{
+  outline:none;
+}
+
 
 button:hover,
 .buttonShape:hover {
