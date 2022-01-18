@@ -94,7 +94,7 @@ a.buttonShape {
   border-radius: 3px;
   padding: 0.5em 1em;
   cursor: pointer;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-right:.5em;
   /* safari */
   color: initial; 
