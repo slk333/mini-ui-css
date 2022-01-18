@@ -126,8 +126,8 @@ border:2px solid black;
 padding: .5em 1em;
 border-radius:3px;
 background-color: transparent;
-/* Safari */
-height:2.5em;
+/* Safari needs height else too small */
+height:39px;
 /* -webkit-appearance:none; */
 
 }
