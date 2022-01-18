@@ -6,7 +6,8 @@
   --text-color: var(--dark);
   /* --link-color: #1b266b; */
   /* --link-color: #1a0dab;  GOOGLE color*/
-  --link-color: #192886;
+  /* --link-color: #192886; */
+  --link-color: #1b266b;
   --link-visited-color: #450963;
   /* --link-visited-color: #660099; GOOGLE color */
   --default-font-stack: system-ui, -apple-system, BlinkMacSystemFont, Roboto,
