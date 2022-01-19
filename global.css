@@ -118,6 +118,15 @@ button:active,
   transform: translateY(1px);
 }
 
+button:disabled {
+  border: solid 2px lightgray;
+  color: lightgray;
+}
+button:disabled:hover {
+  background: transparent;
+  cursor: initial;
+}
+
 select{
 font-family: inherit;
 font-weight: 500;
