@@ -17,3 +17,6 @@ Minimalist CSS Library. Drop-in version.
 demo: https://codepen.io/slk333/pen/NWxpJQN?editors=1100
 
 see also codepen-demo.html
+
+Please note:
+- Light Mode only (for now) (requires white background)
