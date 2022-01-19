@@ -1,7 +1,11 @@
 <div class="container">
+  <h1>Components</h1>
 
   <!-- Button -->
-  <button>Build</button>
+  <div>
+    <button>Build</button>
+    <button disabled>Build</button>
+  </div>
 
   <!-- Select -->
   <select name="beverage" id="">
@@ -37,15 +41,27 @@
   <!-- Table -->
   <table>
     <thead>
-      <th>Drinks</th>
-      <th>Price</th>
-      <th>Available</th>
+      <tr>
+        <th>Drinks</th>
+        <th>Price</th>
+        <th>Available</th>
+      </tr>
     </thead>
     <tbody>
       <tr>
         <td>Coffee</td>
         <td>2.00</td>
         <td>2</td>
+      </tr>
+      <tr>
+        <td>Tea</td>
+        <td>2.00</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>Water</td>
+        <td>0.50</td>
+        <td>20</td>
       </tr>
     </tbody>
   </table>
