@@ -216,7 +216,7 @@ table {
 }
 td,
 th {
-  border-bottom: black #333 2px;
+  border-bottom: solid #333 2px;
   padding: 1em;
   /*     border-right:black solid 1px; */
 }
