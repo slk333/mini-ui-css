@@ -1,8 +1,19 @@
 # Mini-UI
 
-Minimalist CSS Library. Drop-in version.
+Minimalist CSS Library. Light Mode only and Drop-in version.
+
+```
+<link rel="stylesheet" href="https://mini-ui.surge.sh/global.css">
+```
+
+or
+
+```
+@import url("https://mini-ui.surge.sh/global.css");
+```
 
 ## Style the HTML elements
+
 - button
 - textarea
 - input type="text"
@@ -14,9 +25,11 @@ Minimalist CSS Library. Drop-in version.
 - pre
 - blockquote
 
-demo: https://codepen.io/slk333/pen/NWxpJQN?editors=1100
+demo:
 
-see also codepen-demo.html
+- https://codepen.io/slk333/pen/NWxpJQN?editors=1100
+- https://mini-ui.surge.sh/
 
 Please note:
+
 - Light Mode only (for now) (requires white background)
