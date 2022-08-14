@@ -118,8 +118,6 @@ button:active,
 button:disabled {
   border: solid 2px lightgray;
   color: lightgray;
-}
-button:disabled:hover {
   background: transparent;
   cursor: initial;
 }
