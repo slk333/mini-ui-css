@@ -14,22 +14,22 @@ or
 
 ## Style the HTML elements
 
-- button
-- textarea
-- input type="text"
-- select
-- label
-- table
-- hr
-- code
-- pre
-- blockquote
+-   button
+-   textarea
+-   input type="text"
+-   select
+-   label
+-   table
+-   hr
+-   code
+-   pre
+-   blockquote
 
 demo:
 
-- https://codepen.io/slk333/pen/NWxpJQN?editors=1100
-- https://mini-ui.surge.sh/
+-   https://codepen.io/slk333/pen/NWxpJQN?editors=1100
+-   https://mini-ui.surge.sh/
 
 Please note:
 
-- Light Mode only (for now) (requires white background)
+-   Light Mode only (for now) (requires white background)
