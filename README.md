@@ -27,7 +27,7 @@ or
 
 ## Style the classes
 
--   borderlessButton
+-   outlineButton
 -   buttonShape
 
 the buttonShape class aims to make a link looks like a button.
