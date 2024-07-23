@@ -1,0 +1,121 @@
+/* Buttons and Inputs alike */
+button,
+a.buttonShape {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    /*text-transform: uppercase;*/
+    margin-right: 0.5em;
+    /* safari */
+    color: initial;
+}
+a.buttonShape {
+    display: inline-block;
+}
+
+/* button:focus {
+  outline: none;
+} */
+
+button:hover,
+.buttonShape:hover {
+    background: rgba(20, 20, 20, 0.1);
+    text-decoration: none;
+}
+button:active,
+.buttonShape:active {
+    transform: translateY(1px);
+}
+
+button:disabled {
+    border: solid 2px lightgray;
+    color: lightgray;
+    background: transparent;
+    cursor: initial;
+}
+
+select {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    background-color: transparent;
+    /* Safari needs height else too small */
+    height: 39px;
+    /* -webkit-appearance:none; */
+}
+
+input {
+    display: block;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    width: 15em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+input:-webkit-autofill::first-line {
+    /* empêcher autofill de modifier la typographie */
+    font-family: inherit;
+    font-size: initial;
+    font-weight: 500;
+}
+
+input[type="file"] {
+    /* We don't override the default appareance, so we remove the border */
+    border: none;
+}
+
+textarea {
+    display: block;
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0.5em 1em;
+    width: 16em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    height: 5em;
+    resize: none;
+    /* the html specified col and rows will prevail over width and height*/
+}
+
+.outlineButton {
+    border: none;
+    color: black;
+    text-transform: none;
+    padding-left: 0em;
+    font-size: 15px;
+    color: black;
+}
+.outlineButton:active {
+    border: none;
+}
+.outlineButton:focus {
+    border: none;
+    /* outline: none; */
+}
+.outlineButton:hover {
+    background-color: transparent;
+}
+
+form {
+    font-family: inherit;
+    font-size: initial;
+    text-align: start;
+}

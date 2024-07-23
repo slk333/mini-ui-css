@@ -25,6 +25,13 @@ or
 -   pre
 -   blockquote
 
+## Style the classes
+
+-   borderlessButton
+-   buttonShape
+
+the buttonShape class aims to make a link looks like a button.
+
 demo:
 
 -   https://codepen.io/slk333/pen/NWxpJQN?editors=1100
