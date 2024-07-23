@@ -206,8 +206,10 @@ tbody tr:last-of-type td {
     border: none;
 }
 /* Buttons and Inputs alike */
+
 button,
-a.buttonShape {
+.buttonShape {
+    display: inline-block;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
@@ -216,34 +218,45 @@ a.buttonShape {
     border-radius: 3px;
     padding: 0.5em 1em;
     cursor: pointer;
-    /*text-transform: uppercase;*/
     margin-right: 0.5em;
     /* safari */
     color: initial;
-}
-a.buttonShape {
-    display: inline-block;
+
+    &:hover:not(:disabled) {
+        background: rgba(20, 20, 20, 0.1);
+        text-decoration: none;
+    }
+    &:active:not(:disabled) {
+        transform: translateY(1px);
+    }
+    &:disabled {
+        border: solid 2px lightgray;
+        color: lightgray;
+        background: transparent;
+        cursor: initial;
+    }
+    &:visited {
+        color: initial;
+    }
 }
 
-/* button:focus {
-  outline: none;
-} */
+.outlineButton {
+    border: none;
+    color: black;
+    text-transform: none;
 
-button:hover,
-.buttonShape:hover {
-    background: rgba(20, 20, 20, 0.1);
-    text-decoration: none;
-}
-button:active,
-.buttonShape:active {
-    transform: translateY(1px);
-}
+    font-size: 16px;
+    color: black;
 
-button:disabled {
-    border: solid 2px lightgray;
-    color: lightgray;
-    background: transparent;
-    cursor: initial;
+    &:active {
+        border: none;
+    }
+    &:focus {
+        border: none;
+    }
+    &:hover {
+        background-color: #0001;
+    }
 }
 
 select {
@@ -300,25 +313,6 @@ textarea {
     height: 5em;
     resize: none;
     /* the html specified col and rows will prevail over width and height*/
-}
-
-.outlineButton {
-    border: none;
-    color: black;
-    text-transform: none;
-    padding-left: 0em;
-    font-size: 15px;
-    color: black;
-}
-.outlineButton:active {
-    border: none;
-}
-.outlineButton:focus {
-    border: none;
-    /* outline: none; */
-}
-.outlineButton:hover {
-    background-color: transparent;
 }
 
 form {
