@@ -248,14 +248,15 @@ button,
     font-size: 16px;
     color: black;
 
-    &:active {
+    &:active:not(:disabled) {
         border: none;
+    }
+
+    &:hover:not(:disabled) {
+        background-color: #0001;
     }
     &:focus {
         border: none;
-    }
-    &:hover {
-        background-color: #0001;
     }
 }
 
