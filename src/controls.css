@@ -40,7 +40,7 @@ button,
     color: black;
     text-transform: none;
     font-size: 16px;
-    border: 2px solid white;
+    border: 2px solid transparent;
 
     &:hover:not(:disabled) {
         background-color: #f2f2f2;
