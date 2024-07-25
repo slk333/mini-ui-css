@@ -221,9 +221,11 @@ button,
     margin-right: 0.5em;
     /* safari */
     color: initial;
+    /* height: 36px; */
+    /* box-sizing: border-box; */
 
     &:hover:not(:disabled) {
-        background: rgba(20, 20, 20, 0.1);
+        background: #f2f2f2;
         text-decoration: none;
     }
     &:active:not(:disabled) {
@@ -233,7 +235,7 @@ button,
         border: solid 2px lightgray;
         color: lightgray;
         background: transparent;
-        cursor: initial;
+        cursor: not-allowed;
     }
     &:visited {
         color: initial;
@@ -244,19 +246,18 @@ button,
     border: none;
     color: black;
     text-transform: none;
-
     font-size: 16px;
-    color: black;
-
-    &:active:not(:disabled) {
-        border: none;
-    }
+    border: 2px solid white;
 
     &:hover:not(:disabled) {
-        background-color: #0001;
+        background-color: #f2f2f2;
+        border: 2px solid #f2f2f2;
     }
-    &:focus {
+
+    &:disabled {
         border: none;
+        color: lightgray;
+        cursor: not-allowed;
     }
 }
 
