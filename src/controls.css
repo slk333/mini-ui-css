@@ -1,5 +1,10 @@
 /* Buttons and Inputs alike */
 
+::placeholder {
+    --placeholder-color: #b4b4b4;
+    color: var(--placeholder-color);
+}
+
 button,
 .buttonShape {
     display: inline-block;
