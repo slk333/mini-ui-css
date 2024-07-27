@@ -2,16 +2,17 @@
 :root {
     --dark: rgb(40, 42, 54);
     --text-color: var(--dark);
+    --link-color: #1b266b;
+    --link-visited-color: #450963;
     /* --link-color: #1b266b; */
     /* --link-color: #1a0dab;  GOOGLE color*/
     /* --link-color: #192886; */
-    --link-color: #1b266b;
-    --link-visited-color: #450963;
     /* --link-visited-color: #660099; GOOGLE color */
-    --default-font-stack: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
     /* --serif-font-stack: "Merriweather", serif; */
     /* --heading-font-stack: "Roboto",sans-serif  */
+    --default-font-stack: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     --monospace-font-stack: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
         "Courier New", monospace;
 }
@@ -34,18 +35,12 @@ body {
     table {
         font-size: 1em;
     }
-    .horizontalGrid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 2em;
-    }
 }
 
 /* Links */
-
 a {
-    text-decoration: none;
     color: var(--link-color);
+    text-decoration: none;
 }
 
 a:hover {
@@ -149,11 +144,7 @@ ol {
     /* padding-left: 3em; */
 }
 
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p {
+:is(h1, h2, h3, h4, h5) + p {
     margin-top: 0;
 
     /* the space between the header and the 
@@ -161,25 +152,18 @@ h5 + p {
   The paragraph must not interfere so we set the top margin to 0.*/
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+:is(h1, h2, h3, h4, h5) {
     /* headers are close to their content, 
   far from unrelated previous content */
     margin-bottom: 0.6rem;
     margin-top: 2.2rem;
+
+    &:first-child {
+        margin-top: 1em;
+        /* le titre premier élément peut être située directement en haut */
+    }
 }
 
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child,
-h5:first-child {
-    margin-top: 1em;
-    /* le titre premier élément peut être située directement en haut */
-}
 p:first-child {
     margin-top: 0;
 }
