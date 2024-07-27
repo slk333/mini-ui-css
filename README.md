@@ -40,3 +40,9 @@ demo:
 Please note:
 
 -   Light Mode only (for now) (requires white background)
+
+Todo:
+
+-   accent color button, either outline or filled, fulfilling primary button
+-   fix safari issues: set font for code, set background for select
+-   reduce gap between label and input
