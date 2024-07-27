@@ -12,6 +12,8 @@
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     /* --serif-font-stack: "Merriweather", serif; */
     /* --heading-font-stack: "Roboto",sans-serif  */
+    --monospace-font-stack: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+        "Courier New", monospace;
 }
 
 body {
@@ -71,6 +73,7 @@ code {
 }
 
 code {
+    font-family: var(--monospace-font-stack);
     background: #222;
     color: white;
     display: block;
