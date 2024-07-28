@@ -23,7 +23,8 @@ button,
     /* box-sizing: border-box; */
 
     &:hover:not(:disabled) {
-        background: #f2f2f2;
+        --button-background-hover: #f2f2f2;
+        background: var(--button-background-hover);
         text-decoration: none;
     }
     &:active:not(:disabled) {
