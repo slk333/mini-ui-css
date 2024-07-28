@@ -12,7 +12,7 @@ or
 @import url("https://mini-ui.surge.sh/global.css");
 ```
 
-## Style the HTML elements
+## Styled HTML elements
 
 -   button
 -   textarea
@@ -25,10 +25,13 @@ or
 -   pre
 -   blockquote
 
-## Style the classes
+## Styled classes
 
 -   outlineButton
 -   buttonShape
+-   errorText
+-   secondaryText
+-   container
 
 the buttonShape class aims to make a link looks like a button.
 
