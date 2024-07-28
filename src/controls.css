@@ -1,7 +1,14 @@
 /* Buttons and Inputs alike */
+:root {
+    --gray-1: #222;
+    --gray-5: #b4b4b4;
+    --gray-7: #d3d3d3;
+    --gray-8: #e0e0e0;
+    --gray-9: #f2f2f2;
+}
 
 ::placeholder {
-    --placeholder-color: #b4b4b4;
+    --placeholder-color: var(--grayg);
     color: var(--placeholder-color);
 }
 
@@ -31,8 +38,8 @@ button,
         transform: translateY(1px);
     }
     &:disabled {
-        border: solid 2px lightgray;
-        color: lightgray;
+        border: solid 2px var(--gray-7);
+        color: var(--gray-7);
         background: transparent;
         cursor: not-allowed;
     }
@@ -55,7 +62,7 @@ button,
 
     &:disabled {
         border: none;
-        color: lightgray;
+        color: var(--gray-7);
         cursor: not-allowed;
     }
 }
