@@ -27,7 +27,7 @@ or
 
 ## Styled classes
 
--   outlineButton
+-   subtleButton
 -   buttonShape
 -   errorText
 -   secondaryText
