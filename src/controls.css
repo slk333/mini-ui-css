@@ -8,7 +8,7 @@
 }
 
 ::placeholder {
-    --placeholder-color: var(--grayg);
+    --placeholder-color: var(--gray-7);
     color: var(--placeholder-color);
 }
 
