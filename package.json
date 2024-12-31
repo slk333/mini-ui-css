@@ -1,7 +1,8 @@
 {
     "scripts": {
         "build": "cd src && cat global.css table.css controls.css > ../public/global.css",
-        "dev": "live-server public",
+        "dev": "npx live-server public",
+        "predev": "npm run build",
         "predeploy": "npm run build",
         "deploy": "surge $(pwd)/public https://mini-ui.surge.sh/"
     }
