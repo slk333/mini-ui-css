@@ -37,12 +37,8 @@ the buttonShape class aims to make a link looks like a button.
 
 demo:
 
--   https://codepen.io/slk333/pen/NWxpJQN?editors=1100
 -   https://mini-ui.surge.sh/
-
-Please note:
-
--   Light Mode only (for now) (requires white background)
+-   https://codepen.io/slk333/pen/NWxpJQN?editors=1100 (deprecated)
 
 Todo:
 
