@@ -4,6 +4,6 @@
         "dev": "npx live-server public",
         "predev": "npm run build",
         "predeploy": "npm run build",
-        "deploy": "surge $(pwd)/public https://mini-ui.surge.sh/"
+        "deploy": "npx surge $(pwd)/public https://mini-ui.surge.sh/"
     }
 }
