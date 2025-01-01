@@ -1,14 +1,11 @@
 /* General */
 :root {
-    /* primitives gray */
-
+    --dark: #282a36; /* 223 b */
     --gray-1: #222;
     --gray-5: #b4b4b4;
     --gray-7: #d3d3d3;
     --gray-8: #e0e0e0;
     --gray-9: #f2f2f2;
-
-    --dark: #282a36; /* 223 b */
 
     --secondary-color: var(--gray-5);
     --link-color: #1b256a; /* 126 b */
