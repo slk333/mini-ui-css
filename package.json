@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build": "cd src && cat global.css table.css controls.css > ../public/global.css",
+        "build": "cd src && cat _variables.css general.css table.css controls.css > ../public/global.css",
         "dev": "npx live-server public",
         "predev": "npm run build",
         "predeploy": "npm run build",

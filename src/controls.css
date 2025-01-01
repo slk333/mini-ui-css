@@ -1,15 +1,7 @@
 /* Buttons and Inputs alike */
-:root {
-    --gray-1: #222;
-    --gray-5: #b4b4b4;
-    --gray-7: #d3d3d3;
-    --gray-8: #e0e0e0;
-    --gray-9: #f2f2f2;
-}
 
 ::placeholder {
-    --placeholder-color: var(--gray-7);
-    color: var(--placeholder-color);
+    color: var(--gray-7);
 }
 
 button,
@@ -30,8 +22,7 @@ button,
     /* box-sizing: border-box; */
 
     &:hover:not(:disabled) {
-        --button-background-hover: #f2f2f2;
-        background: var(--button-background-hover);
+        background: var(--gray-9);
         text-decoration: none;
     }
     &:active:not(:disabled) {
@@ -56,8 +47,8 @@ button,
     border: 2px solid transparent;
 
     &:hover:not(:disabled) {
-        background-color: #f2f2f2;
-        border: 2px solid #f2f2f2;
+        background-color: var(--gray-9);
+        border: 2px solid var(--gray-9);
     }
 
     &:disabled {
