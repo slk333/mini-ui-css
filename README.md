@@ -38,10 +38,11 @@ the buttonShape class aims to make a link looks like a button.
 demo:
 
 -   https://mini-ui.surge.sh/
--   https://codepen.io/slk333/pen/NWxpJQN?editors=1100 (deprecated)
+-   https://codepen.io/slk333/pen/NWxpJQN?editors=1100
 
 Todo:
 
 -   accent color button, either outline or filled, fulfilling primary button
--   fix safari issues: set font for code, set background for select
+-   fix: set background for select
 -   reduce gap between label and input
+-   consider if mini-ui has a hidden dependency on the browser default. if yes, we should be explicit. if we want to make it work even with a reset-css, we should then provide style for headings.
