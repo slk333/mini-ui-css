@@ -1,6 +1,6 @@
 body {
-    font-family: var(--default-font-stack);
-    color: var(--text-color);
+    font-family: var(--sans-serif-font-stack);
+    color: var(--dark);
 }
 
 .container {
@@ -8,28 +8,17 @@ body {
     margin: auto;
 }
 
-/* Desktop styling */
-@media (min-width: 1000px) {
-    article {
-        font-size: 18px;
-    }
-    table {
-        font-size: 1em;
-    }
-}
-
 /* Links */
 a {
     color: var(--link-color);
     text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    color: var(--link-visited-color);
+    &:hover {
+        text-decoration: underline;
+    }
+    &:visited {
+        color: var(--link-visited-color);
+    }
 }
 
 /* Code */
@@ -147,4 +136,14 @@ p:first-child {
 .secondaryText {
     font-size: 15px;
     color: var(--secondary-color);
+}
+
+/* Desktop styling */
+@media (min-width: 1000px) {
+    article {
+        font-size: 18px;
+    }
+    table {
+        font-size: 1em;
+    }
 }

@@ -9,6 +9,7 @@
     --gray-9: #f2f2f2;
 
     --dark: #282a36; /* 223 b */
+
     --secondary-color: var(--gray-5);
     --link-color: #1b256a; /* 126 b */
     --link-visited-color: #450963; /* 406 b*/
@@ -20,10 +21,8 @@
     --hr-color: var(--gray-8);
     --button-background-hover: var(--gray-9);
 
-    --text-color: var(--dark);
-
-    --default-font-stack: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    --sans-serif-font-stack: system-ui, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI",
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     --monospace-font-stack: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
         "Courier New", monospace;
 }
