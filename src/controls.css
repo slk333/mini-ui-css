@@ -1,7 +1,7 @@
 /* Buttons and Inputs alike */
 
 ::placeholder {
-    color: var(--gray-7);
+    color: var(--gray-200);
 }
 
 button,
@@ -22,15 +22,15 @@ button,
     /* box-sizing: border-box; */
 
     &:hover:not(:disabled) {
-        background: var(--gray-9);
+        background: var(--gray-0);
         text-decoration: none;
     }
     &:active:not(:disabled) {
         transform: translateY(1px);
     }
     &:disabled {
-        border: solid 2px var(--gray-7);
-        color: var(--gray-7);
+        border: solid 2px var(--gray-200);
+        color: var(--gray-200);
         background: transparent;
         cursor: not-allowed;
     }
@@ -42,7 +42,7 @@ button,
 .subtleButton {
     border: 2px solid transparent;
     &:hover:not(:disabled) {
-        border: 2px solid var(--gray-9);
+        border: 2px solid var(--gray-0);
     }
     &:disabled {
         border: 2px solid transparent;
