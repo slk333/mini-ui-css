@@ -14,7 +14,7 @@ th {
     /*     border-right:black solid 1px; */
 }
 tr:nth-of-type(2n) {
-    background: var(--gray-0);
+    background: var(--gray-100);
 }
 th {
     text-transform: uppercase;
