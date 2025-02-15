@@ -4,6 +4,10 @@
     color: var(--gray-200);
 }
 
+:root {
+    --control-outline-color: var(--gray-800);
+}
+
 button,
 .buttonShape {
     display: inline-block;
@@ -11,7 +15,7 @@ button,
     font-size: 16px;
     font-weight: 500;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid var(--control-outline-color);
     border-radius: 3px;
     padding: 0.5em 1em;
     cursor: pointer;
@@ -53,7 +57,7 @@ select {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    border: 2px solid black;
+    border: 2px solid var(--control-outline-color);
     padding: 0.5em 1em;
     border-radius: 3px;
     background-color: transparent;
@@ -68,7 +72,7 @@ input {
     font-size: 1em;
     font-weight: 500;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid var(--control-outline-color);
     border-radius: 3px;
     padding: 0.5em 1em;
     width: 15em;
@@ -94,7 +98,7 @@ textarea {
     font-size: 1em;
     font-weight: 500;
     background: transparent;
-    border: 2px solid black;
+    border: 2px solid var(--control-outline-color);
     border-radius: 3px;
     padding: 0.5em 1em;
     width: 16em;
