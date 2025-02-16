@@ -1,11 +1,12 @@
 /* Buttons and Inputs alike */
 
 ::placeholder {
-    color: var(--gray-200);
+    color: var(--gray-300);
 }
 
 :root {
-    --control-outline-color: var(--gray-800);
+    --control-outline-color: var(--gray-300);
+    --control-outline-width: 1px;
 }
 
 button,
@@ -15,7 +16,7 @@ button,
     font-size: 16px;
     font-weight: 500;
     background: transparent;
-    border: 2px solid var(--control-outline-color);
+    border: var(--control-outline-width) solid var(--control-outline-color);
     border-radius: 3px;
     padding: 0.5em 1em;
     cursor: pointer;
@@ -33,7 +34,7 @@ button,
         transform: translateY(1px);
     }
     &:disabled {
-        border: solid 2px var(--gray-300);
+        border: solid var(--control-outline-width) var(--gray-300);
         color: var(--gray-300);
         background: transparent;
         cursor: not-allowed;
@@ -44,9 +45,9 @@ button,
 }
 
 .subtleButton {
-    border: 2px solid transparent;
+    border: var(--control-outline-width) solid transparent;
     &:hover:not(:disabled) {
-        border: 2px solid var(--gray-100);
+        border: var(--control-outline-width) solid var(--gray-100);
     }
     &:disabled {
         border: 2px solid transparent;
@@ -57,7 +58,7 @@ select {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    border: 2px solid var(--control-outline-color);
+    border: var(--control-outline-width) solid var(--control-outline-color);
     padding: 0.5em 1em;
     border-radius: 3px;
     background-color: transparent;
@@ -72,7 +73,7 @@ input {
     font-size: 1em;
     font-weight: 500;
     background: transparent;
-    border: 2px solid var(--control-outline-color);
+    border: var(--control-outline-width) solid var(--control-outline-color);
     border-radius: 3px;
     padding: 0.5em 1em;
     width: 15em;
@@ -98,7 +99,7 @@ textarea {
     font-size: 1em;
     font-weight: 500;
     background: transparent;
-    border: 2px solid var(--control-outline-color);
+    border: var(--control-outline-width) solid var(--control-outline-color);
     border-radius: 3px;
     padding: 0.5em 1em;
     width: 16em;
