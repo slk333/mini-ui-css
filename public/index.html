@@ -5,10 +5,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>mini-ui.css</title>
         <link rel="stylesheet" href="global.css" />
+        <style>
+            .swatch-100 {
+                background-color: var(--gray-100);
+            }
+            .swatch-200 {
+                background-color: var(--gray-200);
+            }
+            .swatch-300 {
+                background-color: var(--gray-300);
+            }
+            .swatch-400 {
+                background-color: var(--gray-400);
+            }
+            .swatch-500 {
+                background-color: var(--gray-500);
+            }
+            .swatch-600 {
+                background-color: var(--gray-600);
+            }
+            .swatch-700 {
+                background-color: var(--gray-700);
+                color: white;
+            }
+            .swatch-800 {
+                background-color: var(--gray-800);
+                color: white;
+            }
+            .swatch-900 {
+                background-color: var(--gray-900);
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
-            <br /><br /><br /><br /><br />
+            <!-- Table -->
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="swatch-100">100</td>
+                        <td class="swatch-200">200</td>
+                        <td class="swatch-300">300</td>
+                        <td class="swatch-400">400</td>
+                        <td class="swatch-500">500</td>
+                        <td class="swatch-600">600</td>
+                        <td class="swatch-700">700</td>
+                        <td class="swatch-800">800</td>
+                        <td class="swatch-900">900</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <hr />
+
             <!-- Label + Input text -->
             <div>
                 <label for="email">email</label>
@@ -22,8 +72,7 @@
             <div>
                 <button>Login</button>
             </div>
-            <br /><br /><br /><br /><br />
-
+            <br /><br /><br />
             <!-- Button -->
             <div>
                 <button>Build</button>
@@ -99,6 +148,7 @@ const x = 0
             </table>
 
             <hr />
+
             <div>
                 <!-- Link -->
                 <a href="https://antoineweber.com">Read more</a>
