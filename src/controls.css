@@ -69,7 +69,7 @@ select {
 
 input {
     display: block;
-    font-weight: 500;
+    font-weight: 400;
     border: var(--control-border-width) solid var(--control-border-color);
     padding: 0.5em 1em;
     width: 15em;
@@ -81,7 +81,7 @@ input:-webkit-autofill::first-line {
     /* empêcher autofill de modifier la typographie */
     font-family: inherit;
     font-size: initial;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 input[type="file"] {
@@ -91,7 +91,7 @@ input[type="file"] {
 
 textarea {
     display: block;
-    font-weight: 500;
+    font-weight: 400;
     border: var(--control-border-width) solid var(--control-border-color);
     padding: 0.5em 1em;
     width: 16em;
