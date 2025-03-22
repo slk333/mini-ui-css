@@ -1,7 +1,7 @@
 /* Table (not great in mobile) */
 
 table {
-    border: var(--control-outline-width) solid var(--control-outline-color);
+    border: var(--control-border-width) solid var(--control-border-color);
     border-spacing: 0;
     border-radius: 2px;
     font-size: 14px;
@@ -9,7 +9,7 @@ table {
 }
 td,
 th {
-    border-bottom: var(--control-outline-width) solid var(--control-outline-color);
+    border-bottom: var(--control-border-width) solid var(--control-border-color);
     padding: 1em;
     /*     border-right:black solid 1px; */
 }
