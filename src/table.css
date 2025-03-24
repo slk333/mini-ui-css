@@ -1,11 +1,11 @@
 /* Table (not great in mobile) */
 
 table {
-    border: var(--control-border-width) solid var(--control-border-color);
     border-spacing: 0;
     border-radius: 2px;
     font-size: 14px;
     margin-bottom: 1em;
+    border: 1px solid var(--gray-300);
 }
 td,
 th {

@@ -41,23 +41,25 @@
     <body>
         <div class="container">
             <!-- Table -->
-            <table>
-                <tbody>
-                    <tr>
-                        <td class="swatch-100">100</td>
-                        <td class="swatch-200">200</td>
-                        <td class="swatch-300">300</td>
-                        <td class="swatch-400">400</td>
-                        <td class="swatch-500">500</td>
-                        <td class="swatch-600">600</td>
-                        <td class="swatch-700">700</td>
-                        <td class="swatch-800">800</td>
-                        <td class="swatch-900">900</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div style="overflow-x: scroll">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="swatch-100">100</td>
+                            <td class="swatch-200">200</td>
+                            <td class="swatch-300">300</td>
+                            <td class="swatch-400">400</td>
+                            <td class="swatch-500">500</td>
+                            <td class="swatch-600">600</td>
+                            <td class="swatch-700">700</td>
+                            <td class="swatch-800">800</td>
+                            <td class="swatch-900">900</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <hr />
+                <hr />
+            </div>
 
             <!-- Label + Input text -->
             <div>
@@ -94,7 +96,7 @@
             <!-- Textarea -->
             <div>
                 <label for="abc">note</label>
-                <textarea name="abc" id="abc" cols="30" rows="5"></textarea>
+                <textarea name="note" id="noteTextarea" cols="30" rows="5"></textarea>
             </div>
             <hr />
 
@@ -103,7 +105,7 @@
             <hr />
             <!-- Code -->
             <pre><code>function f(){
-const x = 0
+  return 0;
 }</code></pre>
 
             <!-- Hr -->

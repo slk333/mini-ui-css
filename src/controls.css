@@ -1,9 +1,4 @@
 /* Buttons and Inputs alike */
-:root {
-    --control-border-color: var(--gray-300);
-    --control-border-width: 1px;
-    --border-radius: 3px;
-}
 
 /* Common styles for controls */
 button,
@@ -15,17 +10,18 @@ textarea {
     font-family: inherit;
     font-size: 16px;
     background: transparent;
-    border-radius: var(--border-radius);
+    /* border */
+    border-radius: 3px;
+    border: 1px solid var(--gray-300);
 }
 
 button,
 .buttonShape {
     display: inline-block;
     font-weight: 500;
-    border: var(--control-border-width) solid var(--control-border-color);
-    padding: 0.5em 1em;
+    padding: 8px 16px; /* y x */
     cursor: pointer;
-    margin-right: 0.5em;
+    margin-right: 8px;
     /* safari */
     color: initial;
     /* height: 36px; */
@@ -50,18 +46,15 @@ button,
 }
 
 .subtleButton {
-    border: var(--control-border-width) solid transparent;
-    &:hover:not(:disabled) {
-        border: var(--control-border-width) solid var(--gray-100);
-    }
-    &:disabled {
-        border: 2px solid transparent;
+    border-color: transparent;
+
+    :hover:not(:disabled) {
+        border-color: var(--gray-300);
     }
 }
 
 select {
     font-weight: 500;
-    border: var(--control-border-width) solid var(--control-border-color);
     padding: 0.5em 1em;
     /* Safari needs height else too small */
     height: 39px;
@@ -71,9 +64,8 @@ select {
 input {
     display: block;
     font-weight: 400;
-    border: var(--control-border-width) solid var(--control-border-color);
-    padding: 0.5em 1em;
-    width: 15em;
+    padding: 8px 16px; /* y x */
+    width: 300px;
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
@@ -93,14 +85,12 @@ input[type="file"] {
 textarea {
     display: block;
     font-weight: 400;
-    border: var(--control-border-width) solid var(--control-border-color);
-    padding: 0.5em 1em;
-    width: 16em;
+    padding: 8px 16px; /* y x */
+    /* width: 16em; */
     margin-top: 0.5em;
     margin-bottom: 1em;
-    height: 5em;
+    height: 5rem;
     resize: none;
-    /* the html specified col and rows will prevail over width and height*/
 }
 
 form {
