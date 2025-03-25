@@ -8,7 +8,7 @@ select,
 textarea {
     /* fight browser style */
     font-family: inherit;
-    font-size: 16px;
+    font-size: 14px;
     background: transparent;
     /* border */
     border-radius: 3px;
@@ -19,12 +19,13 @@ button,
 .buttonShape {
     display: inline-block;
     font-weight: 500;
+
     padding: 8px 16px; /* y x */
     cursor: pointer;
     margin-right: 8px;
     /* safari */
     color: initial;
-    /* height: 36px; */
+    height: 36px;
 
     /* the hover style should not affect disabled button */
     &:hover:not(:disabled) {
@@ -57,7 +58,7 @@ select {
     font-weight: 500;
     padding: 0.5em 1em;
     /* Safari needs height else too small */
-    height: 39px;
+    height: 36px;
     /* -webkit-appearance:none; */
 }
 
@@ -66,8 +67,7 @@ input {
     font-weight: 400;
     padding: 8px 16px; /* y x */
     width: 300px;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+    margin-top: 4px;
 }
 
 input:-webkit-autofill::first-line {
@@ -85,10 +85,10 @@ input[type="file"] {
 textarea {
     display: block;
     font-weight: 400;
+    font-size: 14px;
     padding: 8px 16px; /* y x */
-    /* width: 16em; */
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+    width: 300px;
+    margin-top: 4px;
     height: 5rem;
     resize: none;
 }
@@ -101,4 +101,9 @@ form {
 
 ::placeholder {
     color: var(--gray-300);
+    font-size: 14px;
+}
+
+label {
+    font-size: 14px;
 }

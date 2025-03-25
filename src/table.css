@@ -4,13 +4,12 @@ table {
     border-spacing: 0;
     border-radius: 2px;
     font-size: 14px;
-    margin-bottom: 1em;
     border: 1px solid var(--gray-300);
 }
 td,
 th {
-    border-bottom: var(--control-border-width) solid var(--control-border-color);
-    padding: 1em;
+    border-bottom: 1px solid var(--gray-300);
+    padding: 14px;
     /*     border-right:black solid 1px; */
 }
 tr:nth-of-type(2n) {
