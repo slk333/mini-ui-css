@@ -68,13 +68,12 @@ input {
     padding: 8px 16px; /* y x */
     width: 300px;
     margin-top: 4px;
+    height: 36px; /* otherwise too short (34px) */
 }
 
-input:-webkit-autofill::first-line {
-    /* empêcher autofill de modifier la typographie */
-    font-family: inherit;
-    font-size: initial;
-    /* font-weight: 500; */
+::placeholder {
+    color: var(--gray-300);
+    font-size: 14px;
 }
 
 input[type="file"] {
@@ -97,11 +96,6 @@ form {
     font-family: inherit;
     font-size: initial;
     text-align: start;
-}
-
-::placeholder {
-    color: var(--gray-300);
-    font-size: 14px;
 }
 
 label {

@@ -14,7 +14,7 @@
 
     --secondary-color: var(--gray-500);
     --link-color: #1b256a; /* 126 b */
-    --link-visited-color: #450963; /* 406 b*/
+    --link-visited-color: #450963; /* 406 b */
     --error-color: #cc0000; /* c00 r */
 
     --code-background: var(--gray-900);
