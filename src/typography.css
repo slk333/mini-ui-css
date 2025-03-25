@@ -1,0 +1,38 @@
+article {
+    /* have some room at the end of an article */
+    margin-bottom: 4em;
+}
+
+p,
+li {
+    /* default is too tight. best value depends on font. */
+    line-height: 1.6;
+}
+
+p + p {
+    margin-top: 20px;
+}
+
+p + :is(h1, h2, h3, h4, h5) {
+    /* the header follows a paragraph*/
+    margin-bottom: 4px;
+    margin-top: 32px;
+}
+
+ul,
+ol {
+    /* la liste doit être davantage espacée/isolée par rapport au paragraphe précédant*/
+    margin: 20px 0;
+    /* la liste ne doit pas être trop décalée sur la droite sinon elle gâche de l'espace horizontal sur mobile. 
+  Par défaut est 40px (2.5em) */
+    /* fixme */
+    /* augmenter à 3em sur desktop */
+    /* padding-left: 3em; */
+}
+
+li + li {
+    /* Chaque puce doit être davantage espacée de ses puces voisines, sinon elles sont vraiment les unes sur les autres
+  cela passe de 0 à 0.5 em de margin.
+  */
+    margin-top: 4px;
+}

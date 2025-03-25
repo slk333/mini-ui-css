@@ -19,7 +19,7 @@ textarea {
 button,
 .buttonShape {
     display: inline-block;
-    font-weight: 500;
+    font-weight: 600;
 
     padding: 8px 16px; /* y x */
     cursor: pointer;
@@ -103,4 +103,5 @@ form {
 
 label {
     font-size: 14px;
+    font-weight: 500;
 }

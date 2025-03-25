@@ -101,3 +101,11 @@ blockquote p {
         font-size: 18px;
     }
 }
+
+mini-ui-paper {
+    display: block;
+    width: max-content;
+    padding: 32px;
+    border: 1px solid var(--gray-300);
+    border-radius: 3px;
+}
