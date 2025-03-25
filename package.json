@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "build": "cd src && cat _variables.css general.css table.css controls.css > ../public/global.css",
+        "build": "cd src && cat **.css > ../public/global.css",
         "dev": "npx concurrently 'npx nodemon --watch src/ --ext css --exec \"npm run build\"' 'npx live-server public'",
         "predev": "npm run build",
         "predeploy": "npm run build",
