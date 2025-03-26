@@ -5,6 +5,13 @@
     -webkit-font-smoothing: antialiased;
 }
 
+img,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
 body {
     font-family: var(--sans-serif-font-stack);
     color: var(--dark);
@@ -90,16 +97,7 @@ blockquote p {
 }
 
 .secondaryText {
-    font-size: 15px;
     color: var(--secondary-color);
-}
-
-/* Desktop styling */
-
-@media (min-width: 1000px) {
-    article {
-        font-size: 18px;
-    }
 }
 
 mini-ui-paper {

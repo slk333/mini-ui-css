@@ -1,12 +1,26 @@
 article {
     /* have some room at the end of an article */
     margin-bottom: 4em;
+    max-width: 600px;
+    letter-spacing: -0.01em;
+    /* font-size: 17px; */
+
+    h3 {
+        /* h3 is too close to 16px by default */
+        font-size: 20px;
+    }
+
+    p,
+    li,
+    .secondaryText {
+        font-size: 17px;
+    }
 }
 
 p,
 li {
     /* default is too tight. best value depends on font. */
-    line-height: 1.6;
+    line-height: 1.55;
 }
 
 p + p {
